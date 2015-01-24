@@ -50,7 +50,7 @@ Partial Class Form1
         'CheckBox1
         '
         Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(320, 56)
+        Me.CheckBox1.Location = New System.Drawing.Point(325, 56)
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(187, 19)
         Me.CheckBox1.TabIndex = 5
@@ -61,7 +61,7 @@ Partial Class Form1
         '
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30"})
-        Me.ComboBox1.Location = New System.Drawing.Point(243, 54)
+        Me.ComboBox1.Location = New System.Drawing.Point(256, 54)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(63, 23)
         Me.ComboBox1.TabIndex = 3
@@ -89,7 +89,7 @@ Partial Class Form1
         '
         Me.ComboBox2.FormattingEnabled = True
         Me.ComboBox2.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30"})
-        Me.ComboBox2.Location = New System.Drawing.Point(243, 89)
+        Me.ComboBox2.Location = New System.Drawing.Point(256, 89)
         Me.ComboBox2.Name = "ComboBox2"
         Me.ComboBox2.Size = New System.Drawing.Size(63, 23)
         Me.ComboBox2.TabIndex = 4
@@ -97,13 +97,13 @@ Partial Class Form1
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(80, 164)
+        Me.TextBox1.Location = New System.Drawing.Point(80, 165)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.ReadOnly = True
         Me.TextBox1.Size = New System.Drawing.Size(320, 21)
         Me.TextBox1.TabIndex = 6
         Me.TextBox1.TabStop = False
-        Me.TextBox1.Text = "Please select a target file from browse button."
+        Me.TextBox1.Text = "Please select a output file from browse button."
         '
         'Label3
         '
@@ -146,11 +146,10 @@ Partial Class Form1
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(12, 127)
+        Me.Label5.Location = New System.Drawing.Point(14, 123)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(45, 15)
+        Me.Label5.Size = New System.Drawing.Size(0, 15)
         Me.Label5.TabIndex = 11
-        Me.Label5.Text = "Label5"
         '
         'Label6
         '
@@ -210,18 +209,18 @@ Partial Class Form1
         Me.Label9.AutoSize = True
         Me.Label9.Location = New System.Drawing.Point(12, 57)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(225, 15)
+        Me.Label9.Size = New System.Drawing.Size(236, 15)
         Me.Label9.TabIndex = 17
-        Me.Label9.Text = "Nuber of candidate passwords for lock A"
+        Me.Label9.Text = "Number of candidate passwords for lock A"
         '
         'Label10
         '
         Me.Label10.AutoSize = True
         Me.Label10.Location = New System.Drawing.Point(13, 92)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(226, 15)
+        Me.Label10.Size = New System.Drawing.Size(237, 15)
         Me.Label10.TabIndex = 18
-        Me.Label10.Text = "Nuber of candidate passwords for lock B"
+        Me.Label10.Text = "Number of candidate passwords for lock B"
         '
         'TextBox2
         '
@@ -244,7 +243,7 @@ Partial Class Form1
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(312, 78)
+        Me.Label12.Location = New System.Drawing.Point(322, 78)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(202, 60)
         Me.Label12.TabIndex = 21
@@ -255,7 +254,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(519, 455)
+        Me.ClientSize = New System.Drawing.Size(526, 455)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.TextBox2)
